@@ -1,0 +1,40 @@
+
+.banner{
+    background-image: url(./images/background-theme.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 500px;
+    background-size: cover;
+  }
+  .modal-body label{
+    display: block;
+  }
+  .modal-content{
+    background-color: tan;
+  }
+  .upperdiv{
+    display: flex;
+    justify-content: space-around;
+  }
+  .upperdiv >div{
+    position: relative;
+  }
+  .upperdiv img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+  }
+  .upperdiv .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 0;
+    color: #fff;
+    display: none;
+    font-weight: bold;
+  }
+  .upperdiv img:hover + .text{
+    display: block;
+  }
