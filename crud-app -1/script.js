@@ -1,3 +1,5 @@
+
+
 var attempt = 3; // Variable to count number of attempts.
 // Below function Executes on click of login button.
 function validate() {
@@ -5,7 +7,7 @@ function validate() {
     var password = document.getElementById("password").value;
     if (username == "admin" && password == "admin") {
         alert("Login successfully");
-        window.location = "login.html"; // Redirecting to other page.
+        window.location = "home.html"; // Redirecting to other page.
         return false;
     }
     else {
@@ -20,18 +22,3 @@ function validate() {
         }
     }
 }
-
-
-function toggle(ele) {
-    var tx = document.getElementById('more-city');
-    if (tx.style.display == 'block') {
-        tx.style.display = 'none';
-
-        document.getElementById(ele.id).value = 'View More';
-    }
-    else {
-        tx.style.display = 'block';
-        document.getElementById(ele.id).value = 'View Less';
-    }
-}
-
