@@ -1,0 +1,3 @@
+Got to server folder open cmd
+-npm install json-server --g
+json-server --watch mydata.json --port 3001

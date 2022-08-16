@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "name": "Megha",
+      "age": "23",
+      "city": "Delhi",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Rahul",
+      "age": 22,
+      "city": "Noida"
+    },
+    {
+      "id": 3,
+      "name": "Sagar",
+      "age": 22,
+      "city": "Pune"
+    },
+    {
+      "id": 4,
+      "name": "Ganesh",
+      "age": 22,
+      "city": "Mumbai"
+    },
+    {
+      "name": "Kailas Shivaji Puri",
+      "age": "29",
+      "city": "Latur",
+      "id": 5
+    },
+    {
+      "name": "Rakesh",
+      "age": "26",
+      "city": "Mumbai",
+      "id": 6
+    }
+  ]
+}

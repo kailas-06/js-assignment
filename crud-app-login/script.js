@@ -21,6 +21,14 @@ function validate() {
     }
 }
 
+// function loginbtn(){
+//     if (this.value =="Login"){
+//         this.value = "Logout";
+//     }else {
+//         this.value = "Login";
+//     }
+// }
+
 
 function toggle(ele) {
     var tx = document.getElementById('more-city');
